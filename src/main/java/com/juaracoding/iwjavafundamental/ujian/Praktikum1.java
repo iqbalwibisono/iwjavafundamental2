@@ -13,28 +13,74 @@ Version 1.1
 import java.util.Scanner;
 public class Praktikum1 {
 
+    //soal nomor 1
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.printf("Masukkan Kata :");
-        String strInput = sc.nextLine();
-        char chX;
-        int intX;
-        int intJumlah =0;
-        for (int i=0;i<strInput.length();i++)
-        {
-            chX =strInput.charAt(i);
-            intX = chX;
-            if((intX>=65 && intX<=97) || (intX>=97 && intX<=122) || (intX>=48 && intX<=57) || (intX>=32 && intX<=47))
-            {
-                intJumlah=intJumlah+intX;
+//        System.out.printf("Masukkan Kata :");
+//        String strInput = sc.nextLine();
+//        char chJob;
+//        int intJob;
+//        int intJumlah = 0;
+//        for (int i = 0; i < strInput.length(); i++) {
+//            chJob = strInput.charAt(i);
+//            intJob = chJob;
+//            if ((intJob >= 65 && intJob <= 97) || (intJob >= 48 && intJob <= 57) || (intJob >= 32 && intJob <= 47) || intJob >= 58 && intJob <= 64) {
+//                intJumlah = intJumlah + intJob;
+//
+//
+//            }
+//            System.out.println("Number ASCII : " + strInput.charAt(i) + " -> " + intJob);
+//            System.out.println("Jumlah Ke : " + intJumlah);
+//
+//        }
 
+        //soal nomor 2
+
+//        System.out.printf("Masukkan Kata :");
+//        String strInput3 = sc.nextLine();
+//        char chZ;
+//        int intZ = 0;
+//        int intJumlah3 = 0;
+//        for (int i = 0; i < strInput3.length();i++)
+//        {
+//            chZ = strInput3.charAt(i);
+//            intZ = chZ;
+//            if ((intZ>=65 && intZ<=90) || (intZ>=48 && intZ<=57) || (intZ>=32 && intZ<=47)
+//                    || (intZ>=58 && intZ<=64))
+//            {
+//                intJumlah3 = intJumlah3 + intZ;
+//
+//
+//            }
+//            System.out.println("Number ASCII : " + strInput3.charAt(i) + " -> " + intZ);
+//            System.out.println("Jumlah Ke : " + intJumlah3);
+//
+//        }
+
+        //soal nomor 3
+
+        System.out.printf("Masukkan Kata :");
+        String strInput3 = sc.nextLine();
+        char chZ;
+        int intZ = 0;
+        int intJumlah3 = 0;
+        for (int i = 0; i < strInput3.length(); i++)
+        {
+            chZ = strInput3.charAt(i);
+            intZ = chZ;
+            if ((intZ >= 32 && intZ <= 122))
+            {
+                intJumlah3 = intJumlah3 + intZ;
 
             }
-            System.out.println("Number ASCII : "+strInput.charAt(i)+" -> "+intX);
-            System.out.println("Jumlah Ke : "+intJumlah);
+
+                System.out.println("Number ASCII : " + strInput3.charAt(i) + " -> " + intZ);
+                System.out.println("Jumlah Ke : " + intJumlah3);
+            }
+
 
         }
 
+
     }
-}
