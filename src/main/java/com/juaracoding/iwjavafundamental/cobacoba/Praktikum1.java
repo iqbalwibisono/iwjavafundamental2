@@ -1,4 +1,4 @@
-package com.juaracoding.iwjavafundamental.ujian;
+package com.juaracoding.iwjavafundamental.cobacoba;
 
 /*
 IntelliJ IDEA 2022.3.1 (Community Edition)
