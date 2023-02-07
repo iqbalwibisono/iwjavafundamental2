@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fe0b968-cb85-48a6-8ca6-a2715068fecd" name="Changes" comment="iseng">
+    <list default="true" id="8fe0b968-cb85-48a6-8ca6-a2715068fecd" name="Changes" comment="Praktikum4 soal nomor 2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/iwjavafundamental/testharian/praktikum_5/Praktikum5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juaracoding/iwjavafundamental/testharian/praktikum_4/Praktikum4.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LuasBangunDatar">
+  <component name="RunManager" selected="Application.Praktikum5">
     <configuration name="LuasBangunDatar" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.juaracoding.iwjavafundamental.cobacoba.LuasBangunDatar" />
       <module name="iwjavafundamental2" />
@@ -76,8 +76,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Praktikum5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.juaracoding.iwjavafundamental.testharian.praktikum_5.Praktikum5" />
+      <module name="iwjavafundamental2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.juaracoding.iwjavafundamental.testharian.praktikum_5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Praktikum5" />
         <item itemvalue="Application.Praktikum2" />
       </list>
     </recent_temporary>
@@ -189,7 +203,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675253107409</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Praktikum4 soal nomor 2">
+      <created>1675494333460</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1675494333460</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Praktikum4 soal nomor 2">
+      <created>1675494599183</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1675494599183</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,6 +242,20 @@
     <MESSAGE value="....." />
     <MESSAGE value="Praktikum4" />
     <MESSAGE value="iseng" />
-    <option name="LAST_COMMIT_MESSAGE" value="iseng" />
+    <MESSAGE value="Praktikum4 soal nomor 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Praktikum4 soal nomor 2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.InputMismatchException" package="java.util" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="java-exception" />
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
